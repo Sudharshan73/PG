@@ -1,0 +1,13 @@
+import java.util.*;
+class BatteryStatus {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int battery = sc.nextInt();
+        if (battery >= 80)
+            System.out.println("Battery Full");
+        else if (battery >= 30)
+            System.out.println("Battery Moderate");
+        else
+            System.out.println("Battery Low");
+    }
+}
